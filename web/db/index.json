@@ -1,0 +1,16 @@
+{
+    "client":[
+        {"id":1,"name":"zzz","phone":2222222,"qq":2881111,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
+        {"id":1,"name":"mmm","phone":2222222,"qq":26789991,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
+        {"id":1,"name":"uuu","phone":7777722,"qq":27668911,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
+        {"id":1,"name":"kkk","phone":22904222,"qq":28678911,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
+        {"id":1,"name":"uuu","phone":12345222,"qq":790881111,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"}
+    ],
+    "employee":[
+        {"id":1,"name":"aaa","sex":"男","age":20,"phone":2783901,"e-mail":"797892@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2020-7-14","is_regular":"是","username":"uuuu","password":999000},
+        {"id":2,"name":"78a","sex":"女","age":22,"phone":2783901,"e-mail":"795662@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2021-7-14","is_regular":"否","username":"uuuu","password":999000},
+        {"id":3,"name":"6te","sex":"男","age":20,"phone":2783901,"e-mail":"797892@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2020-7-14","is_regular":"是","username":"uuuu","password":999000}
+    ]
+
+}
+
