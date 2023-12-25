@@ -25,7 +25,7 @@
     <div style="display: inline-block">
       <img src="" alt=""
         style="width: 30px;border-radius: 70%;position: relative;top:10px;margin-right: 5px">
-      <span>{{ userName }}</span>
+      <span>{{ userList.userName }}</span>
       <i class="el-icon-arrow-down" style="margin-left: 5px"></i>
     </div>
     <el-dropdown-menu slot="dropdown" style="text-align: center">
@@ -42,11 +42,11 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'HeaderBar',
   data () {
     return {
-      userName: 'aa'
 
     }
   },
@@ -54,7 +54,9 @@ export default {
     currentPathName () {
       console.log(this.$store.state.currentPathName)
       return this.$store.state.currentPathName
-    }
+    },
+    ...mapState('user', ['userList'])
+
   }
 
 }

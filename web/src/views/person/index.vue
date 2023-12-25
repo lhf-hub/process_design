@@ -1,10 +1,10 @@
 <template>
-  <div>发邮箱</div>
+  <div class="personInfo"></div>
 </template>
 
 <script>
 export default {
-  name: 'sendEmail'
+  name: 'personInfo'
 
 }
 </script>

@@ -1,5 +1,4 @@
 <template>
-<!-- <el-card class="box-card" style="width: 600px;height:400px;"> -->
 <el-row :gutter="15">
   <el-col :span="14">
     <el-card class="box-card">
@@ -13,16 +12,21 @@
     </el-card>
 </el-col>
 </el-row>
-    <!-- <div id="main" style="width: 580px;height:380px;"></div>
-    <div id="main" style="width: 580px;height:380px;"></div> -->
-<!-- </el-card> -->
-
 </template>
 
 <script>
+import requests from '@/utils/request'
 import * as echarts from 'echarts'
 export default {
   name: 'workAnalysis',
+  data () {
+    return {
+      employeeData: []
+    }
+  },
+  async created () {
+    this.employeeData = await requests.get(`/employee?department_id=${this.userList.department_id}`)
+  },
   mounted () {
     const chartDom = document.getElementById('main')
     const myChart = echarts.init(chartDom, null, {
@@ -86,7 +90,6 @@ export default {
 <style>
 #main{
     border:  1px solid #E6E6E6;
-    /* display: inline-block; */
 }
 #evaluation{
     border:  1px solid #E6E6E6;
@@ -94,13 +97,4 @@ export default {
 .el-card__body{
     padding: 10px;
 }
-/* .el-card{
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 15px;
-    box-sizing: border-box;
-    border:  1px solid #E6E6E6;
-} */
 </style>
