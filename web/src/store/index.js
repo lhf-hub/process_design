@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import clients from './clients'
-import workers from './workers'
+import user from './user'
+import department from './department'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -18,7 +18,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
-    clients,
-    workers
+    user,
+    department
   }
 })

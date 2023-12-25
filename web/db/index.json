@@ -1,16 +1,1200 @@
 {
-    "client":[
-        {"id":1,"name":"zzz","phone":2222222,"qq":2881111,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
-        {"id":1,"name":"mmm","phone":2222222,"qq":26789991,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
-        {"id":1,"name":"uuu","phone":7777722,"qq":27668911,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
-        {"id":1,"name":"kkk","phone":22904222,"qq":28678911,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"},
-        {"id":1,"name":"uuu","phone":12345222,"qq":790881111,"e_mail":"2728@1729","firstCompany_name":"重庆市","secondCompany_name":"南岸区","thirdCompany_name":"重庆交通大学"}
-    ],
-    "employee":[
-        {"id":1,"name":"aaa","sex":"男","age":20,"phone":2783901,"e-mail":"797892@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2020-7-14","is_regular":"是","username":"uuuu","password":999000},
-        {"id":2,"name":"78a","sex":"女","age":22,"phone":2783901,"e-mail":"795662@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2021-7-14","is_regular":"否","username":"uuuu","password":999000},
-        {"id":3,"name":"6te","sex":"男","age":20,"phone":2783901,"e-mail":"797892@55","address":"重庆市","entry_time":"2018-9-16","leave_time":"2020-7-14","is_regular":"是","username":"uuuu","password":999000}
-    ]
-
+  "client": [
+    {
+      "id": "12",
+      "name": "Eleanor Burns",
+      "phone": "7043 687725",
+      "qq": "PvVpRwCWI8",
+      "e_mail": "burns1214@icloud.com"
+    },
+    {
+      "id": "4",
+      "name": "Duan Yunxi",
+      "phone": "760-323-2030",
+      "qq": "6E0gOskICX",
+      "e_mail": "duany228@icloud.com"
+    },
+    {
+      "id": "7",
+      "name": "Ann Flores",
+      "phone": "7961 382184",
+      "qq": "PmxX3KDMxn",
+      "e_mail": "annflore@yahoo.com"
+    },
+    {
+      "id": "30",
+      "name": "Murata Yuna",
+      "phone": "330-670-2254",
+      "qq": "gGJPGfUFjK",
+      "e_mail": "murayuna@outlook.com"
+    },
+    {
+      "id": "31",
+      "name": "Lillian Bennett",
+      "phone": "213-814-2268",
+      "qq": "rmaFaaZPnx",
+      "e_mail": "bennettlillian@mail.com"
+    },
+    {
+      "id": "33",
+      "name": "Watanabe Airi",
+      "phone": "90-6918-9057",
+      "qq": "6D54htXZVm",
+      "e_mail": "waairi1999@gmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Ota Yuna",
+      "phone": "5156 075971",
+      "qq": "WB8yAEH4vp",
+      "e_mail": "yota@gmail.com"
+    },
+    {
+      "id": "23",
+      "name": "Nomura Ikki",
+      "phone": "(1223) 22 0223",
+      "qq": "ZKr6b9yg9B",
+      "e_mail": "nomura7@gmail.com"
+    },
+    {
+      "id": "24",
+      "name": "Liao Lan",
+      "phone": "70-3855-2203",
+      "qq": "f6f4EElNaz",
+      "e_mail": "lanliao@gmail.com"
+    },
+    {
+      "id": "35",
+      "name": "Wong Wing Fat",
+      "phone": "838-596-7127",
+      "qq": "Yq0YH6qMIg",
+      "e_mail": "wongwingfat@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Man Tsz Hin",
+      "phone": "330-024-1059",
+      "qq": "4ZNsHycBuN",
+      "e_mail": "mtszhin@gmail.com"
+    },
+    {
+      "id": "13",
+      "name": "Ikeda",
+      "phone": "90-7455-3381",
+      "qq": "zHRY333333333",
+      "e_mail": "ikeday75@outlook.com"
+    },
+    {
+      "id": "19",
+      "name": "Ng Ho Yin",
+      "phone": "5996 901644",
+      "qq": "MuUtNIJbBG",
+      "e_mail": "nhy@icloud.com"
+    },
+    {
+      "id": "27",
+      "name": "Chan Tsz Hin",
+      "phone": "21-852-0966",
+      "qq": "cWjSJAHKRQ",
+      "e_mail": "tszhinchan@gmail.com"
+    },
+    {
+      "id": "34",
+      "name": "Hu Lan",
+      "phone": "838-775-2988",
+      "qq": "Sb3NQUPwOj",
+      "e_mail": "lan4@yahoo.com"
+    },
+    {
+      "id": "38",
+      "name": "Koyama Eita",
+      "phone": "(1865) 70 2069",
+      "qq": "W9ysTuZTWT",
+      "e_mail": "koyama2006@gmail.com"
+    },
+    {
+      "id": "10",
+      "name": "Okamoto Momoe",
+      "phone": "172-4638-8360",
+      "qq": "jARbwyBGNJ",
+      "e_mail": "momoeokamo9@outlook.com"
+    },
+    {
+      "id": "29",
+      "name": "Gong Rui",
+      "phone": "20-9046-9246",
+      "qq": "1VXtvsYYrs",
+      "e_mail": "rgong5@outlook.com"
+    },
+    {
+      "id": "32",
+      "name": "Ishikawa Yuito",
+      "phone": "7393 101521",
+      "qq": "IUbRQFzf74",
+      "e_mail": "yuito5@outlook.com"
+    },
+    {
+      "id": "8",
+      "name": "Zheng Lu",
+      "phone": "70-2208-9297",
+      "qq": "i9WuK2TOa8",
+      "e_mail": "lu1@gmail.com"
+    },
+    {
+      "id": "14",
+      "name": "Laura Mason",
+      "phone": "5972 408765",
+      "qq": "ykXKBYkoFB",
+      "e_mail": "lauramason8@gmail.com"
+    },
+    {
+      "id": "15",
+      "name": "Kong Anqi",
+      "phone": "755-409-6609",
+      "qq": "UZuE0z2VAN",
+      "e_mail": "anqi3@gmail.com"
+    },
+    {
+      "id": "40",
+      "name": "Qin Lu",
+      "phone": "70-9965-6017",
+      "qq": "GW1jhSwxsy",
+      "e_mail": "qlu@outlook.com"
+    },
+    {
+      "id": "5",
+      "name": "Joshua Grant",
+      "phone": "70-0299-6940",
+      "qq": "dad4u7GaLz",
+      "e_mail": "joshuag@outlook.com"
+    },
+    {
+      "id": "1",
+      "name": "Kenneth Young",
+      "phone": "5598 354961",
+      "qq": "sbH4k3fhyb",
+      "e_mail": "kennethyou3@gmail.com"
+    },
+    {
+      "id": "17",
+      "name": "Jennifer West",
+      "phone": "(161) 092 0329",
+      "qq": "32pctyNcO8",
+      "e_mail": "wejenni@outlook.com"
+    },
+    {
+      "id": "20",
+      "name": "Han Cho Yee",
+      "phone": "5364 437983",
+      "qq": "dnhS2ERXsk",
+      "e_mail": "hachoyee@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Li Ziyi",
+      "phone": "(1223) 34 6768",
+      "qq": "u9UqEtdzNY",
+      "e_mail": "liziyi@outlook.com"
+    },
+    {
+      "id": "36",
+      "name": "Hasegawa Hikaru",
+      "phone": "154-8385-5886",
+      "qq": "B9Xum8jEJk",
+      "e_mail": "hihasegawa8@gmail.com"
+    },
+    {
+      "id": "11",
+      "name": "Chris Collins",
+      "phone": "760-6461-2364",
+      "qq": "193KLyJ57J",
+      "e_mail": "chriscoll@mail.com"
+    },
+    {
+      "id": "16",
+      "name": "Qian Shihan",
+      "phone": "330-103-5777",
+      "qq": "0ZoAak6L3O",
+      "e_mail": "shiqia7@gmail.com"
+    },
+    {
+      "id": "22",
+      "name": "Cheung Wai Han",
+      "phone": "5609 102404",
+      "qq": "4NBJ8BDhpy",
+      "e_mail": "cheungwh@gmail.com"
+    },
+    {
+      "id": "37",
+      "name": "Tong Hiu Tung",
+      "phone": "614-851-9648",
+      "qq": "oB7rDt79QS",
+      "e_mail": "tonghiutung@mail.com"
+    },
+    {
+      "id": "28",
+      "name": "Jin Zhiyuan",
+      "phone": "614-806-6024",
+      "qq": "UzKwK0OU1g",
+      "e_mail": "jzhiy@mail.com"
+    },
+    {
+      "id": "39",
+      "name": "Ho Hiu Tung",
+      "phone": "70-4603-9571",
+      "qq": "jQz3mCCzg5",
+      "e_mail": "hiutung87@icloud.com"
+    },
+    {
+      "id": "2",
+      "name": "Hayashi Mitsuki",
+      "phone": "168-9273-2643",
+      "qq": "7eDQNpuryR",
+      "e_mail": "mhaya728@icloud.com"
+    },
+    {
+      "id": "21",
+      "name": "Lu Zhiyuan",
+      "phone": "52-989-4721",
+      "qq": "PyChY7UiGU",
+      "e_mail": "zhiylu@outlook.com"
+    },
+    {
+      "id": "25",
+      "name": "Janet Fox",
+      "phone": "760-465-9059",
+      "qq": "alNma2UotU",
+      "e_mail": "jfox1947@gmail.com"
+    },
+    {
+      "id": "26",
+      "name": "Clarence Peterson",
+      "phone": "70-8970-8641",
+      "qq": "D3vBysugMp",
+      "e_mail": "pclarence@gmail.com"
+    }
+  ],
+  "employee": [
+    {
+      "id": 2,
+      "name": "6te",
+      "sex": "男",
+      "age": 20,
+      "phone": "27839018888888",
+      "e_mail": "797892@55",
+      "address": "重庆市",
+      "entry_time": "2018-9-16",
+      "leave_time": "2020-7-14",
+      "is_regular": "是",
+      "salary_least": 9999,
+      "username": "uuuu",
+      "password": 999000,
+      "department_id": "模型部门"
+    },
+    {
+      "id": 3,
+      "name": "6te77",
+      "sex": "男",
+      "age": 20,
+      "phone": 2783901,
+      "e_mail": "797892@55",
+      "address": "重庆市",
+      "entry_time": "2018-9-16",
+      "leave_time": "2020-7-14",
+      "is_regular": "是",
+      "salary_least": 9999,
+      "username": "uuuu",
+      "password": 999000,
+      "department_id": 2,
+      "supervisor_id": 3
+    },
+    {
+      "password": "77777",
+      "name": "7777",
+      "age": "2",
+      "is_regular": "是",
+      "sex": "女",
+      "address": "22222222222",
+      "salary_least": "33",
+      "phone": "11111111111",
+      "e_mail": "22222222222",
+      "entry_time": "2023-12-12",
+      "leave_time": "2023-12-26",
+      "username": "222222222222222",
+      "department_id": 3,
+      "supervisor_id": 5,
+      "id": 7
+    },
+    {
+      "password": "77777",
+      "name": "8",
+      "age": "2",
+      "is_regular": "是",
+      "sex": "女",
+      "address": "22222222222",
+      "salary_least": "33",
+      "phone": "11111111111",
+      "e_mail": "22222222222",
+      "entry_time": "2023-12-12",
+      "leave_time": "2023-12-26",
+      "username": "222222222222222",
+      "department_id": 3,
+      "id": 5
+    },
+    {
+      "name": "777",
+      "age": "66",
+      "sex": "女",
+      "address": "wwwwwwww",
+      "department_id": "模型部门",
+      "is_regular": "否",
+      "id": 8,
+      "phone": "77777777777777777777777777777"
+    },
+    {
+      "name": "333333",
+      "address": "3333333",
+      "password": "333333333",
+      "username": "444444444444",
+      "department_id": 3,
+      "is_regular": "是",
+      "id": 9,
+      "sex": "女",
+      "age": "22",
+      "phone": "22222222222",
+      "e_mail": "2222222222222",
+      "entry_time": "2023-12-20",
+      "leave_time": "2023-12-26"
+    },
+    {
+      "name": "77777777777",
+      "age": "78",
+      "is_regular": "是",
+      "department_id": 1,
+      "id": 10,
+      "sex": "女",
+      "phone": "3333333333333333",
+      "e_mail": "wwwwwwwwwwwww",
+      "address": "3333333333333",
+      "entry_time": "2023-12-13",
+      "leave_time": "2023-12-25",
+      "salary_least": "222",
+      "username": "3333333333333",
+      "password": "3333333333333"
+    },
+    {
+      "name": "77777",
+      "sex": "女",
+      "age": "77",
+      "is_regular": "是",
+      "address": "77777777",
+      "phone": "777777777",
+      "salary_least": "8888",
+      "e_mail": "777777777777",
+      "entry_time": "2023-12-06",
+      "leave_time": "2023-12-26",
+      "username": "777777777777",
+      "password": "7777777777777",
+      "department_id": 2,
+      "id": 11
+    },
+    {
+      "name": "88888",
+      "age": "777",
+      "address": "yyyyyyyyyyyyy",
+      "sex": "女",
+      "department_id": 2,
+      "is_regular": "是",
+      "id": 12,
+      "phone": "777777",
+      "entry_time": "2023-12-13",
+      "leave_time": "2023-12-26",
+      "salary_least": "7777",
+      "username": "777777777777",
+      "password": "8888888888888888"
+    },
+    {
+      "name": "哦哦哦",
+      "department_id": 2,
+      "is_regular": "否",
+      "id": 15,
+      "sex": "女",
+      "age": "77",
+      "phone": "7777777777",
+      "e_mail": "88888888888",
+      "address": "88888888",
+      "entry_time": "2023-12-12",
+      "leave_time": "2023-12-26",
+      "salary_least": "7777",
+      "username": "66666666666",
+      "password": "888888888888"
+    },
+    {
+      "password": "77777",
+      "name": "777",
+      "age": "12",
+      "is_regular": "是",
+      "department_id": 1,
+      "id": 16
+    },
+    {
+      "id": "zhuguan3",
+      "name": "hyrsfdez",
+      "sex": "男",
+      "age": 25,
+      "phone": "7865344534",
+      "e_mail": "567324tyujdy",
+      "address": "更热爱诗歌",
+      "salary_least": 8000,
+      "entry_time": "2023-12-04T07:55:41.000Z",
+      "leave_time": "2023-12-24T07:55:45.000Z",
+      "user_id": "zhuguan3",
+      "password": "123",
+      "is_regular": 1,
+      "department_id": "3"
+    },
+    {
+      "name": "uu",
+      "age": "23",
+      "is_regular": 1,
+      "sex": "女",
+      "address": "uuuuuuuuu",
+      "phone": "99999999",
+      "entry_time": "2023-12-12",
+      "leave_time": "2023-12-26",
+      "department_id": "2",
+      "id": 17
+    },
+    {
+      "name": "888",
+      "department_id": "1",
+      "supervisor_id": "zhuguan2",
+      "id": 18
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "name": "模型部门",
+      "supervisor_id": 2
+    },
+    {
+      "id": 2,
+      "name": "渲染部门",
+      "supervisor_id": 3
+    },
+    {
+      "id": 3,
+      "name": "后期部门",
+      "supervisor_id": 5
+    }
+  ],
+  "data": [
+    {
+      "id": "1",
+      "name": "Arai Hikari",
+      "secondCompany": [
+        {
+          "id": "2",
+          "name": "Goto Shino",
+          "thirdCompany": [
+            {
+              "id": "8",
+              "name": "Kono Mitsuki",
+              "client": [
+                {
+                  "id": "12",
+                  "name": "Eleanor Burns",
+                  "phone": "7043 687725",
+                  "qq": "PvVpRwCWI8",
+                  "e_mail": "burns1214@icloud.com",
+                  "branch_id": "8"
+                },
+                {
+                  "id": "4",
+                  "name": "Duan Yunxi",
+                  "phone": "760-323-2030",
+                  "qq": "6E0gOskICX",
+                  "e_mail": "duany228@icloud.com",
+                  "branch_id": "8"
+                },
+                {
+                  "id": "7",
+                  "name": "Ann Flores",
+                  "phone": "7961 382184",
+                  "qq": "PmxX3KDMxn",
+                  "e_mail": "annflore@yahoo.com",
+                  "branch_id": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Wang Rui",
+      "secondCompany": []
+    },
+    {
+      "id": "3",
+      "name": "Guo Ziyi",
+      "secondCompany": []
+    },
+    {
+      "id": "4",
+      "name": "Yan Zhennan",
+      "secondCompany": [
+        {
+          "id": "1",
+          "name": "Chic Yu Ling",
+          "thirdCompany": [
+            {
+              "id": "10",
+              "name": "Tao Lu",
+              "client": [
+                {
+                  "id": "30",
+                  "name": "Murata Yuna",
+                  "phone": "330-670-2254",
+                  "qq": "gGJPGfUFjK",
+                  "e_mail": "murayuna@outlook.com",
+                  "branch_id": "10"
+                },
+                {
+                  "id": "31",
+                  "name": "Lillian Bennett",
+                  "phone": "213-814-2268",
+                  "qq": "rmaFaaZPnx",
+                  "e_mail": "bennettlillian@mail.com",
+                  "branch_id": "10"
+                },
+                {
+                  "id": "33",
+                  "name": "Watanabe Airi",
+                  "phone": "90-6918-9057",
+                  "qq": "6D54htXZVm",
+                  "e_mail": "waairi1999@gmail.com",
+                  "branch_id": "10"
+                },
+                {
+                  "id": "9",
+                  "name": "Ota Yuna",
+                  "phone": "5156 075971",
+                  "qq": "WB8yAEH4vp",
+                  "e_mail": "yota@gmail.com",
+                  "branch_id": "10"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "name": "Scott Hawkins",
+              "client": [
+                {
+                  "id": "23",
+                  "name": "Nomura Ikki",
+                  "phone": "(1223) 22 0223",
+                  "qq": "ZKr6b9yg9B",
+                  "e_mail": "nomura7@gmail.com",
+                  "branch_id": "12"
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "name": "Kwong Hui Mei",
+              "client": [
+                {
+                  "id": "24",
+                  "name": "Liao Lan",
+                  "phone": "70-3855-2203",
+                  "qq": "f6f4EElNaz",
+                  "e_mail": "lanliao@gmail.com",
+                  "branch_id": "7"
+                },
+                {
+                  "id": "35",
+                  "name": "Wong Wing Fat",
+                  "phone": "838-596-7127",
+                  "qq": "Yq0YH6qMIg",
+                  "e_mail": "wongwingfat@gmail.com",
+                  "branch_id": "7"
+                },
+                {
+                  "id": "6",
+                  "name": "Man Tsz Hin",
+                  "phone": "330-024-1059",
+                  "qq": "4ZNsHycBuN",
+                  "e_mail": "mtszhin@gmail.com",
+                  "branch_id": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Takeuchi Ryota",
+          "thirdCompany": [
+            {
+              "id": "3",
+              "name": "Carmen King",
+              "client": [
+                {
+                  "id": "13",
+                  "name": "Ikeda Yuito",
+                  "phone": "90-7455-3381",
+                  "qq": "zHRYmudt1G",
+                  "e_mail": "ikeday75@outlook.com",
+                  "branch_id": "3"
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "name": "Miura Aoshi",
+              "client": [
+                {
+                  "id": "18",
+                  "name": "Ng Fu Shing",
+                  "phone": "7154 493842",
+                  "qq": "SUJkN0Ek4k",
+                  "e_mail": "ng709@outlook.com",
+                  "branch_id": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Tao Ziyi",
+          "thirdCompany": [
+            {
+              "id": "2",
+              "name": "Tang Shihan",
+              "client": [
+                {
+                  "id": "2",
+                  "name": "Hayashi Mitsuki",
+                  "phone": "168-9273-2643",
+                  "qq": "7eDQNpuryR",
+                  "e_mail": "mhaya728@icloud.com",
+                  "branch_id": "2"
+                },
+                {
+                  "id": "21",
+                  "name": "Lu Zhiyuan",
+                  "phone": "52-989-4721",
+                  "qq": "PyChY7UiGU",
+                  "e_mail": "zhiylu@outlook.com",
+                  "branch_id": "2"
+                },
+                {
+                  "id": "25",
+                  "name": "Janet Fox",
+                  "phone": "760-465-9059",
+                  "qq": "alNma2UotU",
+                  "e_mail": "jfox1947@gmail.com",
+                  "branch_id": "2"
+                },
+                {
+                  "id": "26",
+                  "name": "Clarence Peterson",
+                  "phone": "70-8970-8641",
+                  "qq": "D3vBysugMp",
+                  "e_mail": "pclarence@gmail.com",
+                  "branch_id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K-vZSVrdZjiAA4kAbY40n",
+      "name": "重庆市",
+      "secondCompany": [
+        {
+          "id": "3",
+          "name": "Jeff Hamilton",
+          "thirdCompany": [
+            {
+              "id": "1",
+              "name": "Dennis Bennett",
+              "client": [
+                {
+                  "id": "28",
+                  "name": "Jin Zhiyuan",
+                  "phone": "614-806-6024",
+                  "qq": "UzKwK0OU1g",
+                  "e_mail": "jzhiy@mail.com",
+                  "branch_id": "1"
+                },
+                {
+                  "id": "39",
+                  "name": "Ho Hiu Tung",
+                  "phone": "70-4603-9571",
+                  "qq": "jQz3mCCzg5",
+                  "e_mail": "hiutung87@icloud.com",
+                  "branch_id": "1"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "name": "Daniel Kelly",
+              "client": [
+                {
+                  "id": "11",
+                  "name": "Chris Collins",
+                  "phone": "760-6461-2364",
+                  "qq": "193KLyJ57J",
+                  "e_mail": "chriscoll@mail.com",
+                  "branch_id": "11"
+                },
+                {
+                  "id": "16",
+                  "name": "Qian Shihan",
+                  "phone": "330-103-5777",
+                  "qq": "0ZoAak6L3O",
+                  "e_mail": "shiqia7@gmail.com",
+                  "branch_id": "11"
+                },
+                {
+                  "id": "22",
+                  "name": "Cheung Wai Han",
+                  "phone": "5609 102404",
+                  "qq": "4NBJ8BDhpy",
+                  "e_mail": "cheungwh@gmail.com",
+                  "branch_id": "11"
+                },
+                {
+                  "id": "37",
+                  "name": "Tong Hiu Tung",
+                  "phone": "614-851-9648",
+                  "qq": "oB7rDt79QS",
+                  "e_mail": "tonghiutung@mail.com",
+                  "branch_id": "11"
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "name": "Fu Ling Ling",
+              "client": [
+                {
+                  "id": "1",
+                  "name": "Kenneth Young",
+                  "phone": "5598 354961",
+                  "qq": "sbH4k3fhyb",
+                  "e_mail": "kennethyou3@gmail.com",
+                  "branch_id": "4"
+                },
+                {
+                  "id": "17",
+                  "name": "Jennifer West",
+                  "phone": "(161) 092 0329",
+                  "qq": "32pctyNcO8",
+                  "e_mail": "wejenni@outlook.com",
+                  "branch_id": "4"
+                },
+                {
+                  "id": "20",
+                  "name": "Han Cho Yee",
+                  "phone": "5364 437983",
+                  "qq": "dnhS2ERXsk",
+                  "e_mail": "hachoyee@gmail.com",
+                  "branch_id": "4"
+                },
+                {
+                  "id": "3",
+                  "name": "Li Ziyi",
+                  "phone": "(1223) 34 6768",
+                  "qq": "u9UqEtdzNY",
+                  "e_mail": "liziyi@outlook.com",
+                  "branch_id": "4"
+                },
+                {
+                  "id": "36",
+                  "name": "Hasegawa Hikaru",
+                  "phone": "154-8385-5886",
+                  "qq": "B9Xum8jEJk",
+                  "e_mail": "hihasegawa8@gmail.com",
+                  "branch_id": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4f8GbkgszMYI66UvUcalU",
+          "name": "南岸区",
+          "thirdCompany": [
+            {
+              "id": "6",
+              "name": "Hui Fu Shing",
+              "client": [
+                {
+                  "id": "14",
+                  "name": "Laura Mason",
+                  "phone": "5972 408765",
+                  "qq": "ykXKBYkoFB",
+                  "e_mail": "lauramason8@gmail.com",
+                  "branch_id": "6"
+                },
+                {
+                  "id": "15",
+                  "name": "Kong Anqi",
+                  "phone": "755-409-6609",
+                  "qq": "UZuE0z2VAN",
+                  "e_mail": "anqi3@gmail.com",
+                  "branch_id": "6"
+                },
+                {
+                  "id": "40",
+                  "name": "Qin Lu",
+                  "phone": "70-9965-6017",
+                  "qq": "GW1jhSwxsy",
+                  "e_mail": "qlu@outlook.com",
+                  "branch_id": "6"
+                },
+                {
+                  "id": "5",
+                  "name": "Joshua Grant",
+                  "phone": "70-0299-6940",
+                  "qq": "dad4u7GaLz",
+                  "e_mail": "joshuag@outlook.com",
+                  "branch_id": "6"
+                }
+              ]
+            },
+            {
+              "id": "Cz6Yhr1b4hJa88W8ALNla",
+              "name": "重庆交通大学",
+              "client": [
+                {
+                  "id": "10",
+                  "name": "Okamoto Momoe",
+                  "phone": "172-4638-8360",
+                  "qq": "jARbwyBGNJ",
+                  "e_mail": "momoeokamo9@outlook.com",
+                  "branch_id": "Cz6Yhr1b4hJa88W8ALNla"
+                },
+                {
+                  "id": "29",
+                  "name": "Gong Rui",
+                  "phone": "20-9046-9246",
+                  "qq": "1VXtvsYYrs",
+                  "e_mail": "rgong5@outlook.com",
+                  "branch_id": "Cz6Yhr1b4hJa88W8ALNla"
+                },
+                {
+                  "id": "32",
+                  "name": "Ishikawa Yuito",
+                  "phone": "7393 101521",
+                  "qq": "IUbRQFzf74",
+                  "e_mail": "yuito5@outlook.com",
+                  "branch_id": "Cz6Yhr1b4hJa88W8ALNla"
+                },
+                {
+                  "id": "8",
+                  "name": "Zheng Lu",
+                  "phone": "70-2208-9297",
+                  "qq": "i9WuK2TOa8",
+                  "e_mail": "lu1@gmail.com",
+                  "branch_id": "Cz6Yhr1b4hJa88W8ALNla"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Philip Cole",
+          "thirdCompany": []
+        },
+        {
+          "id": "7",
+          "name": "Cheng Jialun",
+          "thirdCompany": [
+            {
+              "id": "5",
+              "name": "Yu Zitao",
+              "client": [
+                {
+                  "id": "19",
+                  "name": "Ng Ho Yin",
+                  "phone": "5996 901644",
+                  "qq": "MuUtNIJbBG",
+                  "e_mail": "nhy@icloud.com",
+                  "branch_id": "5"
+                },
+                {
+                  "id": "27",
+                  "name": "Chan Tsz Hin",
+                  "phone": "21-852-0966",
+                  "qq": "cWjSJAHKRQ",
+                  "e_mail": "tszhinchan@gmail.com",
+                  "branch_id": "5"
+                },
+                {
+                  "id": "34",
+                  "name": "Hu Lan",
+                  "phone": "838-775-2988",
+                  "qq": "Sb3NQUPwOj",
+                  "e_mail": "lan4@yahoo.com",
+                  "branch_id": "5"
+                },
+                {
+                  "id": "38",
+                  "name": "Koyama Eita",
+                  "phone": "(1865) 70 2069",
+                  "qq": "W9ysTuZTWT",
+                  "e_mail": "koyama2006@gmail.com",
+                  "branch_id": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "employeeData": [
+    {
+      "id": "1",
+      "name": "模型部门",
+      "supervisor": [
+        {
+          "id": "zhuguan1",
+          "name": "李鸿飞",
+          "employee": [
+            {
+              "id": "5",
+              "name": "Paul Webb",
+              "sex": "M",
+              "age": 876,
+              "phone": "718-430-3007",
+              "e_mail": "wep46@outlook.com",
+              "address": "104 1st Ave",
+              "salary_least": 993.16,
+              "entry_time": "2021-01-17T05:55:13.000Z",
+              "leave_time": "2005-07-10T01:17:47.000Z",
+              "user_id": "front",
+              "password": "123",
+              "is_regular": 0
+            },
+            {
+              "id": "9",
+              "name": "Zhou Zhennan",
+              "sex": "M",
+              "age": 481,
+              "phone": "838-418-3158",
+              "e_mail": "zhouzh@gmail.com",
+              "address": "421 State Street",
+              "salary_least": 238.51,
+              "entry_time": "2004-01-14T11:35:02.000Z",
+              "leave_time": "2022-07-31T14:25:55.000Z",
+              "user_id": "14",
+              "password": "6EsIjqGbWF",
+              "is_regular": 0
+            },
+            {
+              "id": "zhuguan1",
+              "name": "李鸿飞",
+              "sex": "男",
+              "age": 19,
+              "phone": "15320390102",
+              "e_mail": "728482649@qq.com",
+              "address": "重庆市南岸区重庆交通大学",
+              "salary_least": 8000,
+              "entry_time": "2023-12-06T07:51:15.000Z",
+              "leave_time": "2023-12-24T07:51:12.000Z",
+              "user_id": "zhuguan1",
+              "password": "123",
+              "is_regular": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "渲染部门",
+      "supervisor": [
+        {
+          "id": "zhuguan2",
+          "name": "赵俊辉",
+          "employee": [
+            {
+              "id": "2",
+              "name": "Matsui Minato",
+              "sex": "M",
+              "age": 633,
+              "phone": "7948 204561",
+              "e_mail": "mm6@hotmail.com",
+              "address": "377 Lodge Ln, Toxteth",
+              "salary_least": 756.83,
+              "entry_time": "2015-05-15T23:50:32.000Z",
+              "leave_time": "2019-07-12T19:19:37.000Z",
+              "user_id": "14",
+              "password": "6EsIjqGbWF",
+              "is_regular": 0
+            },
+            {
+              "id": "4",
+              "name": "Liu Shihan",
+              "sex": "F",
+              "age": 209,
+              "phone": "189-6354-6738",
+              "e_mail": "shihliu@yahoo.com",
+              "address": "389 Binchuan Rd, Minhang District",
+              "salary_least": 48.17,
+              "entry_time": "2004-06-29T08:58:37.000Z",
+              "leave_time": "2000-05-10T17:26:57.000Z",
+              "user_id": "zhuguan3",
+              "password": "123",
+              "is_regular": 0
+            },
+            {
+              "id": "7",
+              "name": "Stephanie Gibson",
+              "sex": "F",
+              "age": 727,
+              "phone": "(151) 973 2155",
+              "e_mail": "gibsonsteph17@hotmail.com",
+              "address": "862 Trafalgar Square, Charing Cross",
+              "salary_least": 574.23,
+              "entry_time": "2003-12-23T21:05:46.000Z",
+              "leave_time": "2000-04-28T04:51:15.000Z",
+              "user_id": "8",
+              "password": "NlT9Bdinwo",
+              "is_regular": 0
+            },
+            {
+              "id": "zhuguan2",
+              "name": "赵俊辉",
+              "sex": "男",
+              "age": 20,
+              "phone": "15320394252",
+              "e_mail": "728482649@iftj.com",
+              "address": "重庆市南岸区重庆交通大学",
+              "salary_least": 8000,
+              "entry_time": "2023-12-06T07:51:15.000Z",
+              "leave_time": "2023-12-24T07:51:12.000Z",
+              "user_id": "zhuguan2",
+              "password": "123",
+              "is_regular": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "后期制作部门",
+      "supervisor": [
+        {
+          "id": "zhuguan3",
+          "name": "hyrsfdez",
+          "employee": [
+            {
+              "id": "1",
+              "name": "Nomura Misaki",
+              "sex": "F",
+              "age": 714,
+              "phone": "184-2720-9866",
+              "e_mail": "misaknomura@gmail.com",
+              "address": "954 Qingshuihe 1st Rd, Luohu District",
+              "salary_least": 153.5,
+              "entry_time": "2011-02-13T10:38:00.000Z",
+              "leave_time": "2021-05-11T23:31:43.000Z",
+              "user_id": "2",
+              "password": "tKpolPFTkP",
+              "is_regular": 0
+            },
+            {
+              "id": "10",
+              "name": "Robin Price",
+              "sex": "F",
+              "age": 383,
+              "phone": "172-9944-8112",
+              "e_mail": "price6@hotmail.com",
+              "address": "81 Jiangnan West Road, Haizhu District",
+              "salary_least": 422.39,
+              "entry_time": "2016-09-10T08:16:40.000Z",
+              "leave_time": "2006-08-16T18:31:52.000Z",
+              "user_id": "2",
+              "password": "tKpolPFTkP",
+              "is_regular": 0
+            },
+            {
+              "id": "3",
+              "name": "Hara Mitsuki",
+              "sex": "F",
+              "age": 189,
+              "phone": "10-867-4256",
+              "e_mail": "mha8@icloud.com",
+              "address": "6 Dong Zhi Men, Dongcheng District",
+              "salary_least": 725.46,
+              "entry_time": "2018-11-12T00:51:14.000Z",
+              "leave_time": "2007-07-25T05:46:30.000Z",
+              "user_id": "8",
+              "password": "NlT9Bdinwo",
+              "is_regular": 0
+            },
+            {
+              "id": "6",
+              "name": "Shimizu Daichi",
+              "sex": "M",
+              "age": 866,
+              "phone": "66-818-9994",
+              "e_mail": "sdaichi@icloud.com",
+              "address": "2-1-8 Tenjinnomori, Nishinari Ward",
+              "salary_least": 865.06,
+              "entry_time": "2006-09-10T09:13:46.000Z",
+              "leave_time": "2012-05-05T19:46:57.000Z",
+              "user_id": "zhuguan2",
+              "password": "123",
+              "is_regular": 0
+            },
+            {
+              "id": "8",
+              "name": "Nomura Yuna",
+              "sex": "F",
+              "age": 359,
+              "phone": "614-558-1927",
+              "e_mail": "ynomura01@icloud.com",
+              "address": "175 Wicklow Road",
+              "salary_least": 121.25,
+              "entry_time": "2010-01-23T22:09:52.000Z",
+              "leave_time": "2000-01-23T01:28:09.000Z",
+              "user_id": "8",
+              "password": "NlT9Bdinwo",
+              "is_regular": 0
+            },
+            {
+              "id": "zhuguan3",
+              "name": "hyrsfdez",
+              "sex": "男",
+              "age": 25,
+              "phone": "7865344534",
+              "e_mail": "567324tyujdy",
+              "address": "更热爱诗歌",
+              "salary_least": 8000,
+              "entry_time": "2023-12-04T07:55:41.000Z",
+              "leave_time": "2023-12-24T07:55:45.000Z",
+              "user_id": "zhuguan3",
+              "password": "123",
+              "is_regular": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
-

@@ -1,6 +1,5 @@
 // 对axios进行二次封装
 import axios from 'axios'
-
 // requests就是axios，只不过稍微配置一下
 const requests = axios.create({
   // 配置对象
