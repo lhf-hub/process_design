@@ -54,15 +54,21 @@ export class BaseModel {
         return this.fields.get(fieldName);
     }
 
+
     public async Insert(): Promise<boolean> {
-        var sql: string = `INSERT INTO ${this.tableName} VALUES(`;
+        var sql: string = `INSERT INTO ${this.tableName} (`;
         var fields: any[] = [];
+        var values: any[] = [];
+        
         this.fields.forEach((value, key) => {
-            sql += `?,`;
+            sql += `${key},`;
             fields.push(value);
+            values.push('?');
         });
+        
         sql = sql.slice(0, sql.length - 1);
-        sql += `)`;
+        sql += `) VALUES (${values.join(',')})`;
+
         try {
             var result = await Query(await GetConnection(ConnectionPool), sql, fields);
             return result.affectedRows > 0;
@@ -125,5 +131,11 @@ export class BaseModel {
         }
     }
 
-
+    public GetData(): any {
+        const data = {};
+        this.fields.forEach((value, key) => {
+            data[key] = value;
+        });
+        return data;
+    }
 }
