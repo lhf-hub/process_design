@@ -7,6 +7,7 @@ export function GlobalInit() {
     new MVCApp();
     // 注册控制器
     MVCApp.ControllerManager.Register(ControllerType.ClientController, new ClientController());
+    MVCApp.ControllerManager.Register(ControllerType.EmployeeController, new ClientController());
 
     // 初始化控制器
     MVCApp.ControllerManager.InitAll();
