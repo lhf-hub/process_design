@@ -11,11 +11,9 @@ VueRouter.prototype.push = function push (location) {
 const routes = [
   { path: '/' },
   { path: '/clientsInfo', name: '客户管理', component: () => import('@/views/clients') },
-  { path: '/workersInfo', name: '员工管理', component: () => import('@/views/workers') },
+  { path: '/employeeInfo', name: '员工管理', component: () => import('@/views/employee') },
   { path: '/myTask', name: '工作台', component: () => import('@/views/myTask') },
   { path: '/assignTasks', name: '分配任务', component: () => import('@/views/assign') },
-  { path: '/sendEmail', name: '邮箱', component: () => import('@/views/email') },
-  { path: '/myWorkersInfo', name: '我的员工', component: () => import('@/views/myWorkersInfo') },
   { path: '/analysis', name: '绩效评估', component: () => import('@/views/analysis') }
 
 ]

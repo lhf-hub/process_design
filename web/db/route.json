@@ -1,0 +1,11 @@
+{
+    "/api/*": "/$1",
+    "/:resource/:id/show": "/:resource/:id",
+    "/employee/query?department_id=:department_id":"/employee?department_id=:department_id",
+    "/employee/insert":"/employee",
+    "/employee/update":"/employee",
+    "/client/insert":"/client",
+    "/client/query":"/client",
+    "/client/getCompanyClient":"/data",
+    "/employee/getDepartmentEmployee":"/employeeData"
+  }
