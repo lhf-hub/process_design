@@ -4,4 +4,7 @@ export enum ModelType {
     BranchModel,
     SubsidiaryModel,
     CompanyModel,
+    EmployeeModel,
+    DepartmentModel,
+    UserModel,
 }
