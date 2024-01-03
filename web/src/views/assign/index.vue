@@ -7,18 +7,7 @@
     <el-button  style="margin-left: 5px" type="primary" :size="'small'">搜索</el-button>
     <el-button  style="margin-left: 5px" type="warning" :size="'small'">重置</el-button>
   </div>
-  <div style="margin: 7px 0" >
-    <el-button type="primary" :size="'small'" >新增<i class="el-icon-circle-plus-outline"></i></el-button>
-    <el-popconfirm style="margin: 7px"
-                   confirm-button-text='确定'
-                   cancel-button-text='我再想想'
-                   icon="el-icon-info"
-                   icon-color="red"
-                   title="确定批量删除这些数据吗？"
-                   @confirm="delBatch">
-      <el-button type="danger" slot="reference"  :size="'small'">批量删除<i class="el-icon-remove-outline"></i></el-button>
-    </el-popconfirm>
-  </div>
+
   <el-table :data="workersData" border stripe  :header-cell-class-name="headerBg" @selection-change="handleSelectionChange" :size="'mini'">
     <el-table-column  label="工号" width="80" prop="id" >
     </el-table-column>
@@ -35,47 +24,31 @@
     </el-table-column>
     <el-table-column  label="邮箱" prop="email" >
     </el-table-column>
-    <el-table-column  label="操作" width="180px">
+    <el-table-column  label="操作" width="100px">
       <template v-slot:default="scope" >
-        <!-- <el-button type="primary" style="margin: 4px" :size="'mini'"> 编辑</el-button> -->
-        <el-popconfirm
-            confirm-button-text='确定'
-            cancel-button-text='我再想想'
-            icon="el-icon-info"
-            icon-color="red"
-            title="确定删除吗？"
-            @confirm="del(scope.row.id)"
-        >
-        <!-- <el-button type="danger" slot="reference" style="margin: 4px"  :size="'mini'"> 删除</el-button> -->
-
-        </el-popconfirm>
-        <el-button type="primary"  style="width: 55px;height: 27px; margin: 4px"   :size="'mini'" @click="assign(scope.row.id)"><i class="el-icon-folder-add"></i></el-button>
-        <el-button type="info" style="width: 55px;height: 27px; margin: 4px"   :size="'mini'"><i class="el-icon-message"></i></el-button>
+        <el-button type="primary"  style="width: 55px;height: 27px; margin: 4px"   :size="'mini'" @click="assign(scope.row)"><i class="el-icon-folder-add"></i></el-button>
 
       </template>
     </el-table-column>
   </el-table>
-  <div  style="padding: 10px">
-    <el-pagination
-        :page-sizes="[5, 10, 15, 20]"
-        :page-size="pageSize"
-        layout="total, sizes, prev, pager, next, jumper"
-        :total="total">
-    </el-pagination>
-  </div>
+
   <el-dialog title="项目分配" :visible.sync="dialogFormVisible" width="30%">
     <el-form label-width="60px" size="small">
-      <el-form-item label="姓名">
-        <el-input  autocomplete="off"></el-input>
+      <el-form-item label="姓名" >
+        <el-input  autocomplete="off" v-model="form.name"></el-input>
       </el-form-item>
       <el-form-item label="职称">
-        <el-input autocomplete="off"></el-input>
+        <el-input autocomplete="off"  v-model="form.title"></el-input>
       </el-form-item>
       <el-form-item label="项目">
-        <el-select v-model="projects" placeholder="请选择项目名">
-        <el-option label="项目一" value="shanghai"></el-option>
-        <el-option label="项目二" value="beijing"></el-option>
-      </el-select>
+        <el-select v-model="option" placeholder="请选择" style="margin: 10px;"  :size="'small'">
+      <el-option
+        v-for="item in projects"
+        :key="item.id"
+        :label="item.name"
+        :value="item.id">
+      </el-option>
+    </el-select>
       </el-form-item>
     </el-form>
     <div slot="footer" class="dialog-footer">
@@ -100,11 +73,15 @@ export default {
         { id: 1992, name: 'uuu', title: '熟手', project: 'eywiw', phone: 129077920, email: '829999@qq.com' }
       ],
       dialogFormVisible: false,
-      projects: []
+      projects: [{ id: 1, name: '项目一' }, { id: 2, name: '项目二' }, { id: 3, name: '项目三' }],
+      option: '',
+      form: {}
     }
   },
   methods: {
-    assign () {
+    assign (row) {
+      this.form = row
+
       this.dialogFormVisible = true
     }
   }

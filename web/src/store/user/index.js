@@ -3,17 +3,13 @@ export default {
   state () {
     return {
       userList: {
-        id: 2,
-        userName: 'AAA',
-        passWord: '123456',
-        name: 'aaa',
-        position: '主管',
-        age: '20',
-        e_mail: '77777',
-        address: '山东',
-        department: '渲染部门',
+        account_id: 'AAA',
+        account_passWord: '123456',
+        supervisor_id: '1',
+        role: 'Boss',
+        employee_id: '1',
+        employee_name: '1',
         department_id: '2'
-
       }
 
     }
@@ -22,9 +18,15 @@ export default {
 
   },
   mutations: {
+    updateList (state, newList) {
+      state.userList = newList
+    }
 
   },
   getters: {
+    async getList (context, newList) {
+      context.commit('updateList', newList)
+    }
 
   }
 }

@@ -9,12 +9,39 @@ VueRouter.prototype.push = function push (location) {
   return originalPush.call(this, location).catch(err => err)
 }
 const routes = [
-  { path: '/' },
-  { path: '/clientsInfo', name: '客户管理', component: () => import('@/views/clients') },
-  { path: '/employeeInfo', name: '员工管理', component: () => import('@/views/employee') },
-  { path: '/myTask', name: '工作台', component: () => import('@/views/myTask') },
-  { path: '/assignTasks', name: '分配任务', component: () => import('@/views/assign') },
-  { path: '/analysis', name: '绩效评估', component: () => import('@/views/analysis') }
+  {
+    path: '/',
+    name: 'Mange',
+    component: () => import('@/views/manage'),
+    redirect: '/login',
+    children: [
+      { path: '/clientsInfo', name: '客户管理', component: () => import('@/views/clients') },
+      { path: '/employeeInfo', name: '员工管理', component: () => import('@/views/employee') },
+      { path: '/myTask', name: '工作台', component: () => import('@/views/myTask') },
+      { path: '/assignTasks', name: '分配任务', component: () => import('@/views/assign') },
+      { path: '/analysis', name: '绩效评估', component: () => import('@/views/analysis') },
+      { path: '/cloud', name: '云盘', component: () => import('@/views/cloud') },
+      { path: '/person', name: '个人信息', component: () => import('@/views/person') },
+      { path: '/monitor', name: '监控室', component: () => import('@/views/monitor') }
+    ]
+  },
+  {
+    path: '/login',
+    name: '登录',
+    component: () => import('@/views/login')
+
+  },
+  {
+    path: '/register',
+    name: '注册',
+    component: () => import('@/views/register')
+
+  },
+  {
+    path: '/monitor',
+    name: '监控',
+    component: () => import('@/views/monitor')
+  }
 
 ]
 
