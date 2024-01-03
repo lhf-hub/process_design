@@ -37,8 +37,7 @@
 </el-table-column>
 <el-table-column  label="操作" width="80x">
   <template v-slot:default="scope" >
-    <!-- <el-button type="success" >编辑 <i class="el-icon-edit"></i></el-button> -->
-    <!-- <el-button type="primary" style="margin-right:10px" :size="'mini'" @click="handleEdit(scope.row)">编辑</el-button> -->
+
     <el-popconfirm
         confirm-button-text='确定'
         cancel-button-text='我再想想'
@@ -48,10 +47,8 @@
         @confirm="del(scope.row.id)"
     >
 
-      <!-- <el-button type="danger" slot="reference" style="margin: 7px">删除 <i class="el-icon-remove-outline"></i></el-button> -->
     </el-popconfirm>
-    <!-- <el-button type="danger" slot="reference"  :size="'mini'"> 删除</el-button> -->
-    <!-- <el-button type="info" icon="el-icon-message" :size="mini"></el-button> -->
+
     <el-button type="info" style="width: 55px;height: 27px;"  :size="'mini'"><i class="el-icon-message"></i></el-button>
   </template>
 </el-table-column>

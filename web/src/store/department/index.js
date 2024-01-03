@@ -17,11 +17,13 @@ export default {
       const newList = []
       // 模块名
       await requests.get('/employee/getDepartmentEmployee').then((res) => {
-        for (let i = 0; i < res.length; i++) {
-          const { id, name } = res[i]
-          newList[i] = { id, name }
+        if (res.code === 200) {
+          for (let i = 0; i < res.data.length; i++) {
+            const { id, name } = res.data[i]
+            newList[i] = { id, name }
+          }
+          context.commit('updateList', newList)
         }
-        context.commit('updateList', newList)
       })
     }
   },

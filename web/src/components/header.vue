@@ -7,25 +7,12 @@
   <el-breadcrumb-item>{{ currentPathName }}</el-breadcrumb-item>
 </el-breadcrumb>
   </div>
-  <el-dropdown>
-<div>
-  <span><i class="el-icon-bell head-news-icon" style=" margin-top: 0px;margin-right: 0px"></i></span>
-  <el-badge is-dot class="item"></el-badge>
-</div>
-  <el-dropdown-menu slot="dropdown">
-    <el-dropdown-item>黄金糕</el-dropdown-item>
-    <el-dropdown-item>狮子头</el-dropdown-item>
-    <el-dropdown-item>螺蛳粉</el-dropdown-item>
-    <el-dropdown-item disabled>双皮奶</el-dropdown-item>
-    <el-dropdown-item divided>蚵仔煎</el-dropdown-item>
-  </el-dropdown-menu>
-</el-dropdown>
 
   <el-dropdown style=" cursor: pointer" >
     <div style="display: inline-block">
       <img src="" alt=""
         style="width: 30px;border-radius: 70%;position: relative;top:10px;margin-right: 5px">
-      <span>{{ userList.userName }}</span>
+      <span>{{ userList.account_id}}</span>
       <i class="el-icon-arrow-down" style="margin-left: 5px"></i>
     </div>
     <el-dropdown-menu slot="dropdown" style="text-align: center">

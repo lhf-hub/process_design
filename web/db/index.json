@@ -470,6 +470,23 @@
       "department_id": "1",
       "supervisor_id": "zhuguan2",
       "id": 18
+    },
+    {
+      "name": "77",
+      "age": "77",
+      "sex": "女",
+      "is_regular": 1,
+      "address": "hhh",
+      "phone": "888888888",
+      "salary_least": "9999",
+      "e_mail": "888888",
+      "entry_time": "2023-12-12",
+      "leave_time": "2023-12-25",
+      "username": "777777",
+      "password": "9999999999",
+      "department_id": "1",
+      "supervisor_id": "ssssss",
+      "id": 19
     }
   ],
   "department": [
@@ -1019,6 +1036,32 @@
               "is_regular": 1
             }
           ]
+        },
+        {
+          "id": "ssssss",
+          "name": "ww",
+          "employee": [
+            {
+              "id": "999",
+              "name": "pppp",
+              "sex": "M",
+              "age": 876,
+              "phone": "718-430-3007",
+              "e_mail": "wep46@outlook.com",
+              "address": "104 1st Ave",
+              "salary_least": 993.16,
+              "entry_time": "2021-01-17T05:55:13.000Z",
+              "leave_time": "2005-07-10T01:17:47.000Z",
+              "user_id": "front",
+              "password": "123",
+              "is_regular": 0
+            }
+          ]
+        },
+        {
+          "id": "kkkkkk",
+          "name": "uuu",
+          "employee": []
         }
       ]
     },
@@ -1193,6 +1236,11 @@
               "is_regular": 1
             }
           ]
+        },
+        {
+          "id": "mmmm",
+          "name": "yyyy",
+          "employee": []
         }
       ]
     }

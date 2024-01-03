@@ -57,13 +57,7 @@ export default {
     overflow: '-moz-scrollbars-none';
     scrollbar-width: none;  /*  火狐   */
 }
-.colleague::-webkit-scrollbar {
-    display: none;  /*  Chrome  */
-    width: 0 !important ; /*  Chrome  */
-}
-.colleague .colleague-list:nth-last-child(1){
-    border-color: transparent;
-}
+
 .colleague-list{
     width: 100%;
     height: 71px;
