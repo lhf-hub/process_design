@@ -7,12 +7,14 @@ import Mysql from 'mysql';
 import Home from './routes/home';
 import { GlobalInit } from './GlobalInit.ts';
 import { Client } from './routes/client.ts';
+import { Employee } from './routes/employee.ts';
 const App = Express();
 const Port = 5000;
 export const ConnectionPool = Mysql.createPool(DbConfig);
 App.use(Cors());
 App.use('/', Home);
 App.use(Client);
+App.use(Employee);
 App.use(Express.static(Path.join(__dirname, '../', 'resources', 'static')));
 GlobalInit();
 App.listen(Port, () => {
