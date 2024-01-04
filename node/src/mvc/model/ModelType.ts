@@ -7,4 +7,15 @@ export enum ModelType {
     EmployeeModel,
     DepartmentModel,
     UserModel,
+    CloudNode,
+    CloudFile,
+
+    User,
+
+    Project,
+    Mission,
+    ProcessLog,
+    MissionLog,
+
+    Performance
 }
