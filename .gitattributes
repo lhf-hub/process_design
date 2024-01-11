@@ -1,0 +1,1 @@
+node/src/dbconfig/latest_process.sql filter=lfs diff=lfs merge=lfs -text

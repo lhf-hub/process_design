@@ -1,0 +1,74 @@
+<template>
+  <div class="project">
+    <el-table :data="projectsData" border stripe height="350" :size="'mini'">
+
+      <el-table-column prop="project_name" label="项目" width="100px">
+      </el-table-column>
+      <el-table-column prop="project_create_date" label="创建时间" width="100px">
+      </el-table-column>
+      <el-table-column prop="project_complete_date" label="完成时间" width="100px">
+      </el-table-column>
+      <el-table-column prop="project_status" label="状态">
+        <template scope="scope">
+          <span v-if="scope.row.project_status == 0" style="font-size: larger;color:grey">已创建</span>
+          <span v-else-if="scope.row.project_status == 1" style="font-size: larger;color:rgb(255, 0, 0)">初始化</span>
+          <span v-else-if="scope.row.project_status == 2" style="font-size: larger;color: rgb(255, 0, 247)">制作模型中</span>
+          <span v-else-if="scope.row.project_status == 2" style="font-size: larger;color: rgb(38, 0, 255)">渲染中</span>
+          <span v-else-if="scope.row.project_status == 2" style="font-size: larger;color: rgb(0, 225, 255)">后期制作中</span>
+          <span v-else-if="scope.row.project_status == 2" style="font-size: larger;color: rgb(0, 255, 8)">完成</span>
+          <span v-else-if="scope.row.project_status == 2" style="font-size: larger;color: rgb(255, 123, 0)">归档</span>
+
+        </template>
+      </el-table-column>
+      <el-table-column label="操作" width="80x">
+        <template v-slot:default="scope">
+
+          <el-popconfirm confirm-button-text='确定' cancel-button-text='我再想想' icon="el-icon-info" icon-color="red"
+            title="确定删除吗？" @confirm="del(scope.row.id)">
+
+          </el-popconfirm>
+
+          <el-button type="info" style="width: 55px;height: 27px;" :size="'mini'"><i
+              class="el-icon-message"></i></el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+  </div>
+</template>
+
+<script>
+import requests from '@/utils/request'
+export default {
+  name: 'projectView',
+  data() {
+    return {
+      projectsData: [
+        { name: 'aaa', client: 'iio', email: '7777@qq.com', phone: 11111111, state: '进行中', progress: 40 },
+        { name: 'aaa', client: 'iio', email: '7777@qq.com', phone: 11111111, state: '进行中', progress: 30 },
+        { name: 'aaa', client: 'iio', email: '7777@qq.com', phone: 11111111, state: '未开始', progress: 0 },
+        { name: 'aaa', client: 'iio', email: '7777@qq.com', phone: 11111111, state: '进行中', progress: 80 },
+        { name: 'aaa', client: 'iio', email: '7777@qq.com', phone: 11111111, state: '已完成', progress: 100 }
+
+      ]
+    }
+  },
+  methods: {
+    async getProjects() {
+      const token = localStorage.getItem('token')
+      const res = await requests.post("/project/getjoined", {}, {
+        headers: {
+          'Authorization': 'Bearer ' + token
+        }
+      });
+      this.projectsData = res.data
+      console.log(res);
+    },
+  },
+  created() {
+    this.getProjects()
+  },
+
+}
+</script>
+
+<style></style>
